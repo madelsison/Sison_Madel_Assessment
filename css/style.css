@@ -58,7 +58,7 @@ h2 {
 .box-3 {
     float: left;
     width: 30%;
-    overflow: hiddenauto;
+    overflow: auto;
     text-align: center;
     padding-top: 20px;
 }
