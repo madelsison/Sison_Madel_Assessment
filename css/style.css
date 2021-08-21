@@ -80,6 +80,7 @@ h2 {
   .flex-container > div {
     background-color: #f8e2cf;
     margin: 10px;
+    width: 100px;
     padding: 20px;
     font-size: 30px;
   }
