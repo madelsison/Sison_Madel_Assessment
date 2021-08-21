@@ -30,6 +30,8 @@ a {
 p {
     text-align: justify;
     margin-top: 0.75;
+    font-size: 16px;
+    padding: 10px;
 }
 .we {
     color: orange;
@@ -81,8 +83,7 @@ h2 {
     background-color: burlywood;
     border-radius: 70%;
 }
-div {
-    font-size: 32rem;  }
+
 /* 
 
     4.  Collaborative Task for Assessment
