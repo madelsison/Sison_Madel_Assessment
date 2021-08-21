@@ -4,6 +4,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 /* 2. global style
@@ -29,16 +30,20 @@ a {
 }
 p {
     text-align: center;
-    margin-top: 5px;
+    margin: 0.75em 0;
     font-size: 16px;
     padding: 10px;
+    margin-left: 70px;
+    margin-bottom: 100%;
+    margin-right: 30px;
 }
 .we {
-    color: orange;
+    color: #ff7600;
 }
 h2 {
     text-align: center;
-    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 /* 3. settings
     - create a rule where you can control the maximum width of your content
@@ -49,12 +54,18 @@ h2 {
     in left and right
     - and lastly set a rule on overflowing elements inside to hidden.
 */
-.container {
-    margin: auto;
-    max-width: 1100px;
-    overflow: auto;
-    padding: 0 20px;
+.flex-container {
+    display: flex;
 }
+.flex-container div {
+    margin-left: 10px;
+}
+/*.container {
+    margin: auto;
+    max-width: 1500px;
+    overflow: hidden;
+    padding: 0 2rem;
+}*/
 .box-1,
 .box-2,
 .box-3 {
@@ -69,19 +80,19 @@ h2 {
     height: 600px;
     z-index: 2;
 }
-.container {
+/*.container {
     padding: 20px;
     margin-bottom: 40px;
     border-radius: 1.2em;
-   } 
+   } */
 .icon {
-    padding: 5px 5px;
-    margin-top: 10px;
+    margin-top: 40px;
     margin-right: 10px;
     float: left;
-    border: 10px solid burlywood;
-    background-color: burlywood;
-    border-radius: 70%;
+    border: 10px solid #f8e2cf;
+    background-color: #f8e2cf;
+    border-radius: 50%;
+    font-size: 50px;
 }
 
 /* 
