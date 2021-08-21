@@ -66,18 +66,11 @@ h2 {
     height: 600px;
     z-index: 2;
 }
-/*.container {
+.container {
     padding: 20px;
     margin-bottom: 40px;
     border-radius: 1.2em;
-   } */
-.container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 20px;
-    background-color: ##fdf6f0;
-    padding: 10px;
-}
+   } 
 .icon {
     padding: 5px 5px;
     margin-top: 10px;
